@@ -25,7 +25,7 @@ The objective of this project is to analyze and predict global happiness levels 
 - Highlight patterns, outliers, and correlations to provide a deeper understanding of global well-being.
 
 ## Dataset Overview
-The dataset used for this project is from the [**World Happiness Report**](https://worldhappiness.report/data/), which contains various indicators that influence happiness across different countries. Here's a brief explanation of each column in the dataset:
+The dataset used for this project is from the [**World Happiness Report 2024**](https://worldhappiness.report/data/), which contains various indicators from 2005 to 2024 that influence happiness across different countries. Here's a brief explanation of each column in the dataset:
 
 - **Country**: Name of the country.
 - **Region**: Region to which the country belongs.
