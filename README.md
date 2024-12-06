@@ -1,7 +1,7 @@
 # Global Happiness Prediction from World Happiness Report
 
 ## Objective
-The objective of this project is to analyze and predict global happiness levels by examining various socioeconomic and psychological factors that influence people's well-being across countries. By exploring the relationships between indicators such as GDP per capita, social support, health, freedom of life choices, generosity, and perceptions of corruption, the project aims to identify the key drivers of happiness and uncover patterns in global well-being. This analysis can provide valuable insights for policymakers, organizations, and researchers working to enhance societal well-being and improve quality of life globally.
+The objective of this project is to analyze and predict global happiness scores and direction (increase or decrease) over year by examining various socioeconomic and psychological factors that influence people's well-being across countries. By exploring the relationships between indicators such as GDP per capita, social support, health, freedom of life choices, generosity, and perceptions of corruption, the project aims to identify the key drivers of happiness and uncover patterns in global well-being. This analysis can provide valuable insights for policymakers, organizations, and researchers working to enhance societal well-being and improve quality of life globally.
 
 ## Specific Goals
 
