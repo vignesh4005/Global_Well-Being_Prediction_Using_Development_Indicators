@@ -15,7 +15,7 @@ The objective of this project is to analyze and predict global happiness levels 
 
 ### 3. Predict Happiness Scores
 - Build predictive models using machine learning techniques to forecast happiness scores based on available features like GDP, social support, and other socio-economic variables.
-- Compute the change in "Ladder Score" over years for each country and predict the direction (increase or decrease).
+- Compute the change in "Life Ladder Score" over years for each country and predict the direction (increase or decrease).
 
 ### 4. Assess the Role of Governance and Perception
 - Investigate the influence of governance factors such as freedom and perceptions of corruption on happiness.
@@ -39,5 +39,5 @@ The dataset used for this project is from the [**World Happiness Report 2024**](
 - **Perceptions of corruption**: The national average of survey responses to questions about the perceived extent of corruption in the government and businesses.
 - **Positive affect**: The national average of responses to questions about positive emotions experienced yesterday.
 - **Negative affect**: The national average of responses to questions about negative emotions experienced yesterday.
-- **Ladder score**: The happiness score for each country, based on responses to the Cantril Ladder question that asks respondents to think of a ladder, with the best possible life for them being a 10, and the worst possible life being a 0.
+- **Life Ladder score**: The happiness score for each country, based on responses to the Cantril Ladder question that asks respondents to think of a ladder, with the best possible life for them being a 10, and the worst possible life being a 0.
 
