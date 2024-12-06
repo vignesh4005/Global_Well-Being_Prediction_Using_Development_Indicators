@@ -15,6 +15,7 @@ The objective of this project is to analyze and predict global happiness levels 
 
 ### 3. Predict Happiness Scores
 - Build predictive models using machine learning techniques to forecast happiness scores based on available features like GDP, social support, and other socio-economic variables.
+- Compute the change in "Ladder Score" over years for each country and predict the direction (increase or decrease).
 
 ### 4. Assess the Role of Governance and Perception
 - Investigate the influence of governance factors such as freedom and perceptions of corruption on happiness.
