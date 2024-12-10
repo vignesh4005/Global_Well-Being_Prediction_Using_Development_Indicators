@@ -1,12 +1,12 @@
 ## **Global Well-Being Prediction Using Development Indicators (Socioeconomic, Governance, and Happiness Metrics)**
 
 ## Objective
-The objective of this project is to analyze and predict global happiness scores and direction (increase or decrease) over year by examining various socioeconomic and psychological factors that influence people's well-being across countries. By exploring the relationships between indicators such as GDP per capita, social support, health, freedom of life choices, generosity, and perceptions of corruption, the project aims to identify the key drivers of happiness and uncover patterns in global well-being. This analysis can provide valuable insights for policymakers, organizations, and researchers working to enhance societal well-being and improve quality of life globally.
+The main goal of this project is to predict the global well-being of countries based on a combination of socioeconomic, governance, and subjective well-being indicators. The project leverages data from the World Happiness Report from 2005 to 2023, integrating various factors such as economic conditions, social support, governance, health, and individual perceptions to predict overall happiness and life satisfaction across nations.
 
 ## Specific Goals
 
-### 1. Understand the Drivers of Happiness
-- Explore how factors like GDP, social support, health, and freedom contribute to happiness levels across different countries and regions.
+### 1. Data Exploration and Preprocessing
+- Analyze and preprocess the dataset to handle missing values, normalize data, and ensure the integrity of categorical and numerical variables.
 - Identify the key socioeconomic and psychological factors that most influence happiness scores globally.
 
 ### 2. Identify Global Trends
@@ -17,9 +17,9 @@ The objective of this project is to analyze and predict global happiness scores 
 - Build predictive models using machine learning techniques to forecast happiness scores based on available features like GDP, social support, and other socio-economic variables.
 - Compute the change in "Life Ladder Score" over years for each country and predict the direction (increase or decrease).
 
-### 4. Assess the Role of Governance and Perception
-- Investigate the influence of governance factors such as freedom and perceptions of corruption on happiness.
-- Analyze how governance correlates with other metrics influencing happiness scores.
+### 4. Socioeconomic, Governance, and Well-Being Insights
+- Investigate how socioeconomic factors (e.g., GNI per capita, total population, internet penetration) and governance indicators (e.g., Voice and Accountability, Government Effectiveness) influence happiness.
+- Identify the most significant drivers of well-being across countries and explore any regional patterns that could inform policymaking.
 
 ### 5. Visualize Relationships
 - Create meaningful visualizations to represent the relationships between key variables.
