@@ -63,8 +63,20 @@ This dataset encompasses various indicators that influence happiness across coun
 - **Region**: Region to which the country belongs.
 - **Year**: The year of the happiness report data (e.g., 2019, 2020, etc.).
 - **Log GDP per capita**: The natural logarithm of the country's GDP per capita, adjusted for purchasing power parity (PPP) to account for differences in the cost of living between countries.
+- **Log GNI per capita**: Represents the logarithmic transformation of Gross National Income (GNI) per capita, used to analyze income distribution and economic trends.
+- **GNI Classification**: Categorizes countries based on their Gross National Income (GNI) per capita into low, lower-middle, upper-middle, or high-income groups.
+- **Total Population**: The total number of people living in a specific country or region at a given time.
+- **Population Growth Rate**: Indicates the annual percentage increase in a country's population, reflecting birth and death rates as well as migration.
+- **Population Growth**: Categorizes a country's population Growth over a period of  time as low, high, moderate or negative.
+- **Voice and Accountability** - Measures the extent to which a country's citizens are able to participate in selecting their government and the extent to which freedom of expression, freedom of association, and a free media exist.
+- **Political Stability** - Reflects the likelihood of political instability and the occurrence of violent conflicts, including terrorism, political violence, and civil wars.
+- **Government Effectiveness** - Assesses the quality of public services, the civil service's competence, and the government's ability to formulate and implement policies effectively.
+- **Regulatory Quality** - Measures the ability of the government to formulate and implement sound policies and regulations that promote private sector development.
+- **Rule of Law** - Evaluates the extent to which individuals and businesses have confidence in and abide by the rules of society, including the protection of property rights and the enforcement of contracts.
+- **Internet Penetration** - Classifies the Country with access to the internet in a given country or region.
 - **Social support**: The national average of binary responses (either 0 or 1 representing No/Yes) to the question about having relatives or friends to count on in times of trouble.
 - **Healthy life expectancy**: The average number of years a newborn infant would live in good health, based on mortality rates and life expectancy at different ages.
+- **Child Mortality**: The number of deaths of children under five years of age per 1,000 live births, reflecting child health and healthcare quality.
 - **Freedom to make life choices**: The national average of responses to the question about satisfaction with freedom to choose what to do with one's life.
 - **Generosity**: The residual of regressing the national average of responses to the question about donating money to charity on GDP per capita.
 - **Perceptions of corruption**: The national average of survey responses to questions about the perceived extent of corruption in the government and businesses.
