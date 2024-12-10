@@ -26,7 +26,34 @@ The objective of this project is to analyze and predict global happiness scores 
 - Highlight patterns, outliers, and correlations to provide a deeper understanding of global well-being.
 
 ## Dataset Overview
-The dataset used for this project was prepared using data from [**World Happiness Report 2024**](https://worldhappiness.report/data/), [**Worldwide Governance Indicators**](https://www.worldbank.org/en/publication/worldwide-governance-indicators), [**Individuals using the Internet Report**](https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=;), [**GNI per capita**](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=XL), [**United Nations Population Division**](https://data.worldbank.org/indicator/SP.POP.TOTL), [**Population growth rate (annual %)**](https://data.worldbank.org/indicator/SP.POP.GROW) which contains various indicators from 2005 to 2023 that influence happiness across different countries. Here's a brief explanation of each column in the dataset:
+This dataset was prepared using data from the following trusted sources:
+
+1. **[World Happiness Report 2024](https://worldhappiness.report/data/)**  
+   - Contains happiness scores and rankings of countries worldwide.
+   
+2. **[Worldwide Governance Indicators](https://www.worldbank.org/en/publication/worldwide-governance-indicators)**  
+   - Includes governance metrics like voice and accountability, political stability, government effectiveness, rule of law, and regulatory quality.
+
+3. **[Individuals using the Internet Report](https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=;)**  
+   - Represents the percentage of individuals using the internet in each country.
+
+4. **[Gross National Income (GNI) per capita](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=XL)**  
+   - Provides data on GNI per capita adjusted for inflation and purchasing power parity.
+
+5. **[United Nations Population Division](https://data.worldbank.org/indicator/SP.POP.TOTL)**  
+   - Offers information on total population for each country.
+
+6. **[Population Growth Rate (annual %)](https://data.worldbank.org/indicator/SP.POP.GROW)**  
+   - Tracks the annual percentage growth in population.
+     
+## Sources
+
+- **World Happiness Report 2024**  
+- **World Bank Group (Worldwide Governance Indicators, Internet Usage, GNI per Capita, Population Data, and Population Growth Rate)**
+
+## Data Description
+
+This dataset encompasses various indicators that influence happiness across countries from 2005 to 2023. Below is a brief explanation of the key columns:
 
 - **Country**: Name of the country.
 - **Region**: Region to which the country belongs.
