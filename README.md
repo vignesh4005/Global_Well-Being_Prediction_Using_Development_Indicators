@@ -84,3 +84,25 @@ This dataset encompasses various indicators that influence happiness across coun
 - **Negative affect**: The national average of responses to questions about negative emotions experienced yesterday.
 - **Life Ladder score**: The happiness score for each country, based on responses to the Cantril Ladder question that asks respondents to think of a ladder, with the best possible life for them being a 10, and the worst possible life being a 0.
 
+
+
+
+# Data Description Table
+
+This table describes the variables in the dataset and provides an overview of each variable's meaning, type, values, and explanation.
+
+| **Variable**               | **Description**                                                                                                 | **Type**   | **Values**                    | **Explanation**                                                                                                                                                                       |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------|------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Country**                 | Name of the country.                                                                                            | Text       | Country name                  | The name of the country.                                                                                                                                                               |
+| **Region**                  | Region to which the country belongs.                                                                            | Text       | Region name                   | The geographical or political region to which the country belongs.                                                                                                                   |
+| **Year**                    | The year of the happiness report data (e.g., 2019, 2020, etc.).                                                 | Numeric    | Year (e.g., 2019, 2020, etc.)  | The year for the data presented in the happiness report.                                                                                                                              |
+| **Log GDP per capita**      | The natural logarithm of the country's GDP per capita, adjusted for purchasing power parity (PPP).             | Numeric    | Logarithmic value             | The logarithmic transformation of GDP per capita, adjusted for cost of living differences.                                                                                             |
+| **Log GNI per capita**      | The logarithmic transformation of Gross National Income (GNI) per capita.                                      | Numeric    | Logarithmic value             | The logarithmic transformation of GNI per capita, used to analyze income distribution and trends.                                                                                      |
+| **GNI Classification**      | Categorizes countries based on their Gross National Income (GNI) per capita into income groups.                 | Categorical| Low, Lower-middle, Upper-middle, High | Classification of countries based on their GNI per capita into groups (e.g., low, middle, or high-income).                                                                        |
+| **Total Population**        | The total number of people living in a specific country or region at a given time.                              | Numeric    | Population number             | The total population count of a country or region at a given time.                                                                                                                    |
+| **Population Growth Rate**  | Indicates the annual percentage increase in a country's population.                                             | Numeric    | Percentage value              | The annual percentage increase in a country's population, reflecting natural birth and death rates as well as migration.                                                              |
+| **Population Growth**       | Categorizes a country's population growth over time as low, moderate, high, or negative.                       | Categorical| Low, Moderate, High, Negative  | Classification of population growth into categories based on the rate of growth.                                                                                                      |
+| **Voice and Accountability**| Measures the extent to which citizens can participate in selecting their government and freedoms exist.         | Numeric    | Score (e.g., 0-1 or index)    | A measure of political freedom, expression, association, and media freedom in a country.                                                                                             |
+|
+
+
