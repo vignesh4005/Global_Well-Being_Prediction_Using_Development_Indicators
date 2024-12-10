@@ -57,8 +57,6 @@ This dataset was prepared using data from the following trusted sources:
 ## Data Description
 This dataset provides various indicators for countries based on their happiness report data from 2005 to 2023, including economic, social, and governance factors, along with subjective measures like life satisfaction and emotional well-being.
 
-## Variables
-
 | **Variable**                     | **Type**     | **Values**                                               | **Description**                                                                                                    |
 |-----------------------------------|--------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **Country**                       | Categorical  | 'Finland', 'USA', 'India', 'Australia', etc.              | The name of the country for which the happiness report data is recorded.                                           |
