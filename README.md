@@ -54,6 +54,11 @@ This dataset was prepared using data from the following trusted sources:
 - **World Bank Group (Worldwide Governance Indicators, Internet Usage, GNI per Capita, Population Data, and Population Growth Rate)**
 - **World Health Organisation**
 
+## Technologies Used
+- **Data Preparation:** Microsoft Excel
+- **Programming Language:** Python (Jupyter Notebook)
+- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn
+
 ## Data Description
 This dataset provides various indicators for countries based on their happiness report data from 2005 to 2023, including economic, social, and governance factors, along with subjective measures like life satisfaction and emotional well-being.
 
@@ -83,4 +88,26 @@ This dataset provides various indicators for countries based on their happiness 
 | **Positive affect**               | Numerical    | Average of binary responses (0 to 1)                      | The national average of responses about positive emotions experienced yesterday.                                    |
 | **Negative affect**               | Numerical    | Average of binary responses (0 to 1)                      | The national average of responses about negative emotions experienced yesterday.                                    |
 | **Life Ladder score**             | Numerical    | Continuous scale (e.g., 0 to 10)                          | The happiness score based on responses to the Cantril Ladder question, where 10 is the best possible life and 0 is the worst. |
+
+## Results Summary
+
+### 1. Life Ladder Score Prediction
+**Best Model:** RandomForestRegressor  
+- **Test R²:** 0.856 (excellent generalization).  
+- **MSE:** 0.178 (minimal error).  
+- **MAE:** 0.321 (low average error).  
+- **Overfitting:** Minimal (Train R²: 0.851).  
+
+**Alternatives:** GradientBoostingRegressor and XGBRegressor are strong options but slightly less accurate.  
+
+### 2. Healthy Life Expectancy Prediction
+**Best Model:** RandomForestRegressor  
+- **Test R²:** 0.916 (outstanding generalization).  
+- **MSE:** 3.63, **MAE:** 1.27 (low errors).  
+- **Overfitting:** Balanced (Train R²: 0.852).  
+
+**Alternatives:** XGBRegressor performs similarly but with slightly higher errors.  
+
+**Final Recommendation:**  
+RandomForestRegressor is the best model for both tasks, delivering high accuracy, minimal errors, and excellent generalization.
 
